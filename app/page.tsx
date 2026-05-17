@@ -107,10 +107,10 @@ export default function Home() {
             <div className="h-16 w-auto bg-white p-1 rounded">
               <img src="/logo.png" alt="BIJILI COATINGS Logo" className="h-full w-auto object-contain" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
             </div>
-            <div className="flex flex-col">
-              <span className="text-xl uppercase tracking-wider text-sky-900 font-bold block">Engineering Protection</span>
-              <span className="text-sm text-slate-500 font-medium mt-0.5">All Kinds of waterproofing systems</span>
-            </div>
+            <div className="flex flex-col max-w-[60%] sm:max-w-none">
+  <span className="text-lg sm:text-xl uppercase tracking-wider text-sky-900 font-bold block leading-tight">Engineering Protection</span>
+  <span className="text-xs sm:text-sm text-slate-500 font-medium mt-0.5 leading-tight">All kinds of waterproofing systems</span>
+</div>
           </div>
           <a href="#contact" className="px-6 py-3 text-sm font-semibold tracking-wider text-white bg-sky-600 uppercase hover:bg-sky-700 transition-colors rounded shadow-sm">Consult Expert</a>
         </div>
